@@ -1,0 +1,501 @@
+.container {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-rounded {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.img-circle {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.img-blur {
+  max-width: 100%;
+  height: auto;
+  filter: blur(1rem);
+}
+
+.btn-primary {
+  background-color: rgb(13, 110, 253);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  transition: ease-in-out 0.3s;
+  opacity: 0.8;
+}
+.btn-primary:disabled {
+  pointer-events: none;
+}
+
+.btn-secondary {
+  background-color: rgb(108, 117, 125);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-secondary:hover {
+  transition: ease-in-out 0.3s;
+  opacity: 0.8;
+}
+.btn-secondary:disabled {
+  pointer-events: none;
+}
+
+.btn-success {
+  background-color: rgb(25, 135, 84);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-success:hover {
+  transition: ease-in-out 0.3s;
+  opacity: 0.8;
+}
+.btn-success:disabled {
+  pointer-events: none;
+}
+
+.btn-danger {
+  background-color: rgb(220, 53, 69);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-danger:hover {
+  transition: ease-in-out 0.3s;
+  opacity: 0.8;
+}
+.btn-danger:disabled {
+  pointer-events: none;
+}
+
+.btn-warning {
+  background-color: rgb(255, 193, 7);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-warning:hover {
+  transition: ease-in-out 0.3s;
+  opacity: 0.8;
+}
+.btn-warning:disabled {
+  pointer-events: none;
+}
+
+.btn-info {
+  background-color: rgb(13, 202, 240);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-info:hover {
+  transition: ease-in-out 0.3s;
+  opacity: 0.8;
+}
+.btn-info:disabled {
+  pointer-events: none;
+}
+
+.btn-light {
+  background-color: rgb(248, 249, 250);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-light:hover {
+  transition: ease-in-out 0.3s;
+  opacity: 0.8;
+}
+.btn-light:disabled {
+  pointer-events: none;
+}
+
+.btn-dark {
+  background-color: rgb(33, 37, 41);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-dark:hover {
+  transition: ease-in-out 0.3s;
+  opacity: 0.8;
+}
+.btn-dark:disabled {
+  pointer-events: none;
+}
+
+.text-muted {
+  background-color: rgb(13, 110, 23);
+}
+
+.text-success {
+  background-color: rgb(25, 135, 84);
+}
+
+.text-info {
+  background-color: rgb(13, 202, 240);
+}
+
+.text-warning {
+  background-color: rgb(255, 193, 7);
+}
+
+.text-error {
+  background-color: rgb(255, 51, 51);
+}
+
+.alert-success {
+  background: #75aa61;
+  width: 100%;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 7px;
+}
+.alert-success p {
+  color: #fff;
+}
+
+.alert-info {
+  background: #6181aa;
+  width: 100%;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 7px;
+}
+.alert-info p {
+  color: #fff;
+}
+
+.alert-warning {
+  background: #cecf60;
+  width: 100%;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 7px;
+}
+.alert-warning p {
+  color: #fff;
+}
+
+.alert-danger {
+  background: #ae6872;
+  width: 100%;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 7px;
+}
+.alert-danger p {
+  color: #fff;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row .col {
+  flex: 1;
+  background-color: lightgreen;
+  border: solid 2px black;
+}
+.row .col-1 {
+  width: 8.3333333333%;
+}
+.row .col-2 {
+  width: 16.6666666667%;
+}
+.row .col-3 {
+  width: 25%;
+}
+.row .col-4 {
+  width: 33.3333333333%;
+}
+.row .col-5 {
+  width: 41.6666666667%;
+}
+.row .col-6 {
+  width: 50%;
+}
+.row .col-7 {
+  width: 58.3333333333%;
+}
+.row .col-8 {
+  width: 66.6666666667%;
+}
+.row .col-9 {
+  width: 75%;
+}
+.row .col-10 {
+  width: 83.3333333333%;
+}
+.row .col-11 {
+  width: 91.6666666667%;
+}
+.row .col-12 {
+  width: 100%;
+}
+
+@media (min-width: 0px) {
+  .row .col {
+    flex: 1;
+    background-color: lightgreen;
+    border: solid 2px black;
+  }
+  .row .col-1 {
+    width: 8.3333333333%;
+  }
+  .row .col-2 {
+    width: 16.6666666667%;
+  }
+  .row .col-3 {
+    width: 25%;
+  }
+  .row .col-4 {
+    width: 33.3333333333%;
+  }
+  .row .col-5 {
+    width: 41.6666666667%;
+  }
+  .row .col-6 {
+    width: 50%;
+  }
+  .row .col-7 {
+    width: 58.3333333333%;
+  }
+  .row .col-8 {
+    width: 66.6666666667%;
+  }
+  .row .col-9 {
+    width: 75%;
+  }
+  .row .col-10 {
+    width: 83.3333333333%;
+  }
+  .row .col-11 {
+    width: 91.6666666667%;
+  }
+  .row .col-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .row .col-sm {
+    flex: 1;
+    background-color: lightgreen;
+    border: solid 2px black;
+  }
+  .row .col-sm-1 {
+    width: 8.3333333333%;
+  }
+  .row .col-sm-2 {
+    width: 16.6666666667%;
+  }
+  .row .col-sm-3 {
+    width: 25%;
+  }
+  .row .col-sm-4 {
+    width: 33.3333333333%;
+  }
+  .row .col-sm-5 {
+    width: 41.6666666667%;
+  }
+  .row .col-sm-6 {
+    width: 50%;
+  }
+  .row .col-sm-7 {
+    width: 58.3333333333%;
+  }
+  .row .col-sm-8 {
+    width: 66.6666666667%;
+  }
+  .row .col-sm-9 {
+    width: 75%;
+  }
+  .row .col-sm-10 {
+    width: 83.3333333333%;
+  }
+  .row .col-sm-11 {
+    width: 91.6666666667%;
+  }
+  .row .col-sm-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .row .col-md {
+    flex: 1;
+    background-color: lightgreen;
+    border: solid 2px black;
+  }
+  .row .col-md-1 {
+    width: 8.3333333333%;
+  }
+  .row .col-md-2 {
+    width: 16.6666666667%;
+  }
+  .row .col-md-3 {
+    width: 25%;
+  }
+  .row .col-md-4 {
+    width: 33.3333333333%;
+  }
+  .row .col-md-5 {
+    width: 41.6666666667%;
+  }
+  .row .col-md-6 {
+    width: 50%;
+  }
+  .row .col-md-7 {
+    width: 58.3333333333%;
+  }
+  .row .col-md-8 {
+    width: 66.6666666667%;
+  }
+  .row .col-md-9 {
+    width: 75%;
+  }
+  .row .col-md-10 {
+    width: 83.3333333333%;
+  }
+  .row .col-md-11 {
+    width: 91.6666666667%;
+  }
+  .row .col-md-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .row .col-lg {
+    flex: 1;
+    background-color: lightgreen;
+    border: solid 2px black;
+  }
+  .row .col-lg-1 {
+    width: 8.3333333333%;
+  }
+  .row .col-lg-2 {
+    width: 16.6666666667%;
+  }
+  .row .col-lg-3 {
+    width: 25%;
+  }
+  .row .col-lg-4 {
+    width: 33.3333333333%;
+  }
+  .row .col-lg-5 {
+    width: 41.6666666667%;
+  }
+  .row .col-lg-6 {
+    width: 50%;
+  }
+  .row .col-lg-7 {
+    width: 58.3333333333%;
+  }
+  .row .col-lg-8 {
+    width: 66.6666666667%;
+  }
+  .row .col-lg-9 {
+    width: 75%;
+  }
+  .row .col-lg-10 {
+    width: 83.3333333333%;
+  }
+  .row .col-lg-11 {
+    width: 91.6666666667%;
+  }
+  .row .col-lg-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .row .col-xl {
+    flex: 1;
+    background-color: lightgreen;
+    border: solid 2px black;
+  }
+  .row .col-xl-1 {
+    width: 8.3333333333%;
+  }
+  .row .col-xl-2 {
+    width: 16.6666666667%;
+  }
+  .row .col-xl-3 {
+    width: 25%;
+  }
+  .row .col-xl-4 {
+    width: 33.3333333333%;
+  }
+  .row .col-xl-5 {
+    width: 41.6666666667%;
+  }
+  .row .col-xl-6 {
+    width: 50%;
+  }
+  .row .col-xl-7 {
+    width: 58.3333333333%;
+  }
+  .row .col-xl-8 {
+    width: 66.6666666667%;
+  }
+  .row .col-xl-9 {
+    width: 75%;
+  }
+  .row .col-xl-10 {
+    width: 83.3333333333%;
+  }
+  .row .col-xl-11 {
+    width: 91.6666666667%;
+  }
+  .row .col-xl-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 1400px) {
+  .row .col-xxl {
+    flex: 1;
+    background-color: lightgreen;
+    border: solid 2px black;
+  }
+  .row .col-xxl-1 {
+    width: 8.3333333333%;
+  }
+  .row .col-xxl-2 {
+    width: 16.6666666667%;
+  }
+  .row .col-xxl-3 {
+    width: 25%;
+  }
+  .row .col-xxl-4 {
+    width: 33.3333333333%;
+  }
+  .row .col-xxl-5 {
+    width: 41.6666666667%;
+  }
+  .row .col-xxl-6 {
+    width: 50%;
+  }
+  .row .col-xxl-7 {
+    width: 58.3333333333%;
+  }
+  .row .col-xxl-8 {
+    width: 66.6666666667%;
+  }
+  .row .col-xxl-9 {
+    width: 75%;
+  }
+  .row .col-xxl-10 {
+    width: 83.3333333333%;
+  }
+  .row .col-xxl-11 {
+    width: 91.6666666667%;
+  }
+  .row .col-xxl-12 {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,47 @@
+body
+{
+    text-align: center;
+}
+
+#game
+{
+    display: inline-block;
+    text-align: center;
+    background-color: blue;
+}
+
+.col
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+    background-color: white;
+    border: solid 2px black;
+}
+
+.col.empty
+{
+    cursor: pointer;
+}
+
+/* COULEURS */
+.col.red
+{
+    background-color: red;
+}
+.col.yellow
+{
+    background-color: yellow;
+}
+
+/* PREVIEW COULEUR */
+.col.pred
+{
+    background-color: darkred;
+}
+.col.pyellow
+{
+    background-color: darkgoldenrod;
+}

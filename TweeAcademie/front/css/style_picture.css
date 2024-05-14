@@ -1,0 +1,38 @@
+.profile-pic {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+img {
+  height: 100%;
+}
+#input_file {
+  display: none;
+}
+#label_file {
+  padding-top: 125px;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: red;
+  /* line-height: 40px; */
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+#label_file i {
+  font-size: 40px;
+  color: rgb(143, 112, 112);
+}
